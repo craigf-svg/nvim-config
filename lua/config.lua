@@ -1,3 +1,4 @@
+vim.opt.clipboard = "unnamedplus"
 vim.g.mapleader = " "
 
 vim.api.nvim_create_autocmd("FileType", {
