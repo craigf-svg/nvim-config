@@ -1,13 +1,19 @@
-# Minimal Neovim Setup with Python Print Mapping
+# Minimal Neovim Setup with Print Mapping
 
 [![Neovim](https://img.shields.io/badge/built%20for-neovim-57A143?logo=neovim&logoColor=white)](https://neovim.io/)
 [![Lua](https://img.shields.io/badge/written%20in-lua-000080?logo=lua&logoColor=white)](https://www.lua.org/)
 
 My initial config with my most used custom mapping, yanking the variable under the cursor and inserting a new line to print the variable name and value.
 
-## Mapping
+Automatically detects Python or JavaScript and uses the appropriate syntax.
 
-`<leader>p` - print debug for Python variable under cursor.
+### Mapping
+
+`<leader>p` - print debug for Python/JavaScript variable under cursor.
+
+### Clipboard Integration
+
+`vim.opt.clipboard = "unnamedplus"` - Use the system clipboard for copying and pasting
 
 ## Set up
 
