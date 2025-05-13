@@ -16,3 +16,6 @@ vim.api.nvim_create_autocmd("FileType", {
 		vim.keymap.set("n", "<leader>p", "yiwoconsole.log('<C-r>\"', <C-r>\")<Esc>", { noremap = true, buffer = true })
 	end,
 })
+
+vim.api.nvim_set_keymap('n', '<leader>\'', [[:%s/"/'/g<CR>]], { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>"', [[:%s/'/"/g<CR>]], { noremap = true, silent = true })
