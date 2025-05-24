@@ -25,3 +25,8 @@ vim.api.nvim_set_keymap("n", "<leader>'", [[:%s/"/'/g<CR>]], { noremap = true, s
 vim.api.nvim_set_keymap("n", '<leader>"', [[:%s/'/"/g<CR>]], { noremap = true, silent = true })
 -- Wrap the current line in <strong></strong>
 vim.api.nvim_set_keymap("n", "<leader>s", "^i<strong><Esc>$a</strong><Esc>", { noremap = true, silent = true })
+
+-- Cursor to first non-whitespace character
+vim.api.nvim_set_keymap("n", "<leader>b", "^", { noremap = true, silent = true })
+-- Cursor to end of line
+vim.api.nvim_set_keymap("n", "<leader>e", "$", { noremap = true, silent = true })
