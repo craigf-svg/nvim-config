@@ -34,8 +34,8 @@ Lightweight Neovim configuration built around tasks I find myself repeating.
 ## Setup
 
 1. **Install Neovim or an Equivalent Editor**  
-   - [Neovim Download](https://neovim.io/)  
-   - [VSCode Neovim Extension](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)  
+   - <a href="https://neovim.io" target="_blank">Neovim Download</a>
+   - <a href="https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim" target="_blank">VSCode Neovim Extension</a>
    - Or use any other compatible editor of your choice.
 
 2. **Add This Configuration to Your Neovim Directory**  
